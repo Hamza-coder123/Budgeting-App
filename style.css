@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: gray;
+}
+
+h1, h2 {
+  color: #333;
+}
+h1{
+  text-align: center;
+  color: black
+}
+
+input, button {
+  margin-bottom: 10px;
+}
+
+#remaining-budget {
+  margin-top: 20px;
+  font-weight: bold;
+}
+#budget-input{
+  margin-left: 0%;
+  border: 1px solid #ffbd00;
+  margin-top: 2%;
+  width: 21rem;
+  height: 2rem;
+}
+#add-budget-btn{
+  height: 2.2rem;
+  font-size: 0.9rem;
+  border: 1px solid grey;
+  color: black;
+  font-weight: bold;
+  background-color: #ffbd00;
+}
+
+label[for="budget-input"] {
+  font-size: 1.1rem;
+  margin-left: 25.5%;
+  font-weight: bold;
+}
+h2{
+  margin-top: 3%;
+  text-align: center;
+  font-size: 2rem;
+}
+label[for="description-input"] {
+  font-size: 1.1rem;
+  margin-left: 0%;
+  font-weight: bold;
+}
+#description-input{
+  margin-left: 0%;
+  border: 1px solid #ffbd00;
+  width: 21rem;
+  height: 2rem;
+}
+
+label[for="amount-input"] {
+  font-size: 1.1rem;
+  margin-left: 0%;
+  font-weight: bold;
+}
+#amount-input{
+  margin-left: 0%;
+  border: 1px solid #ffbd00;
+  width: 21rem;
+  height: 2rem;
+}
+label[for="date-input"] {
+  font-size: 1.1rem;
+  margin-left: 0%;
+  font-weight: bold;
+}
+#date-input{
+  margin-left: 0%;
+  border: 1px solid #ffbd00;
+  width: 21rem;
+  height: 2rem;
+}
+#add-expense-btn{
+  margin-left: 44%;
+  margin-top: 2%;
+  height: 2.2rem;
+  width: 10rem;
+  font-size: 0.9rem;
+  border: 1px solid grey;
+  color: black;
+  font-weight: bold;
+  background-color: #ffbd00;
+}
+tr{
+  color: #ffbd00;
+}
+#expense-table{
+  margin-left: 41.5%;
+}
+#expense-table th{
+  padding-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  label[for="budget-input"], label[for="description-input"], label[for="amount-input"], label[for="date-input"] {
+    margin-left: 0;
+  }
+
+  #add-expense-btn {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  #expense-table {
+    margin-left: 0;
+  }
+}
